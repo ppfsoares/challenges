@@ -1,4 +1,4 @@
-// Questões de vagas
+// Questões de vagas e outras loucuras
 // Escreva um método que receba uma string, com letras repetidas e na sequência e imprima a letra que mais se repete na string.
 
 // Ex:
@@ -51,7 +51,7 @@ letraMaisRepetida = (string) => {
 }
 
 //letraMaisRepetida("aaabbbbcccccddiiiikkkk")
-
+//######## questão estefanini: checar se uma palavra é palíndromo
 palindromo = (string) => {
     let nova = ""
     for (let i = string.length-1; i >= 0; i--) {
@@ -60,4 +60,4 @@ palindromo = (string) => {
     return string === nova
 }
 
-console.log(palindromo('arara'));
+//console.log(palindromo('arara'));
